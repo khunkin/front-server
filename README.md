@@ -1,0 +1,1 @@
+devcloud-static-server

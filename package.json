@@ -1,0 +1,31 @@
+{
+  "name": "front-server",
+  "version": "1.0.0",
+  "description": "frontend project deployed in node.js static web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartsuit/devcloud-static-server.git"
+  },
+  "keywords": [
+    "node.js",
+    "pm2",
+    "static",
+    "resource"
+  ],
+  "author": "heartsuit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heartsuit/devcloud-static-server/issues"
+  },
+  "homepage": "https://github.com/heartsuit/devcloud-static-server#readme",
+  "dependencies": {
+    "http-proxy-middleware": "^0.19.1",
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0",
+    "koa2-connect": "^1.0.2"
+  }
+}

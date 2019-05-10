@@ -26,7 +26,7 @@ const proxyTable = {
     }
   },
   "/api": {
-    target: "http://114.116.138.139:8081", // remember to change this to your ip address
+    target: "http://114.116.138.139:8666", // remember to change this to your ip address
     changeOrigin: true
     // pathRewrite: {
     //   '^/api': ''

@@ -10,6 +10,10 @@ fork：<https://github.com/heartsuit/devcloud-static-server>
 
 华为云部署前，**先fork到自己的仓库，之后务必修改index.js第32行服务器地址为自己的服务器地址**，再远程访问服务器将该目录克隆到指定目录下（直接在华为云上shell命令部署有奇奇怪怪的问题）
 
+```
+git clone https://github.com/Andy1621/front-server.git ./opt/front-server
+```
+
 ```javascript
 const proxyTable = {
   "/3rd": {
